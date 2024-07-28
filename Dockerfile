@@ -2,6 +2,7 @@
 FROM nginx:latest
 
 # Copy custom Nginx config
+COPY nginx.conf /etc/nginx/nginx.conf
 COPY default.conf /etc/nginx/conf.d/default.conf
 
 # Copy HTML files and images
