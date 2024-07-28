@@ -8,6 +8,9 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 # Copy HTML files and images
 COPY nginx-html /usr/share/nginx/html
 
+# Set proper permissions
+RUN chmod -R 755 /usr/share/nginx/html
+
 # Expose port 80
 EXPOSE 80
 
