@@ -1,39 +1,49 @@
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-size: 1.125rem;
+    color: #1A171B;
     margin: 0;
     background-color: #f4f4f4;
 }
 
 .quote-container {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90vmin;
 }
 
-.quote-container img {
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 90vmin;
     border-radius: 10px;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0.625em 0.625em 0.125em #1a171bc7;
+
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
-.quote-container p {
-    font-size: 1.2em;
-    color: #333;
+.responsive {
+    max-width: 80%;
+    max-height: 70%;
 }
+
 
 .share-buttons {
-    display: flex;
-    justify-content: center;
+    display: block;
+
+    align-items: end;
+    position: relative;
+    text-align: center;
     gap: 10px;
 }
 
