@@ -7,7 +7,7 @@ body {
 }
 
 .quote-container {
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     max-width: 90vmin;
 }
@@ -28,8 +28,7 @@ img {
     box-shadow: 0.625em 0.625em 0.125em #1a171bc7;
 
     margin: 0 auto;
-    /* margin-left: auto;
-    margin-right: auto; */
+
 }
 
 .responsive {
