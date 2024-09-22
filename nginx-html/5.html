@@ -16,6 +16,10 @@
 
 <body>
     <div class="quote-container">
+        <video autoplay muted loop oncanplay="this.play()" onloadedmetadata="this.muted = true" id="bgVideo">
+            <source src="background-hero-video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
         <img src="images/5.png" class="center responsive" alt="Quote Image">
         <div class="share-buttons">
             <!-- Your share buttons here -->
