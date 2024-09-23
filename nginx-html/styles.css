@@ -49,6 +49,7 @@ html {
     z-index: -2;
     object-fit: cover;
     opacity: 0.85;
+    overflow: hidden;
 }
 
 .logo-container {
