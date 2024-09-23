@@ -4,6 +4,7 @@ body {
     color: #1a171b1b;
     margin: 0;
     background-color: #f4f4f4;
+    overflow: hidden;
 }
 
 html {
