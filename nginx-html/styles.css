@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'IvarDisplay';
+    src: url('/nginx-html/fonts/IvarDisplay-Regular.woff2') format('woff2'),
+        url('/nginx-html/fonts/IvarDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IvarDisplay', sans-serif;
     font-size: 1.125rem;
     color: #1a171b1b;
     margin: 0;
@@ -86,6 +95,7 @@ html {
 }
 
 .share-buttons a.btn {
+    font-family: 'IvarDisplay';
     padding: 10px 20px;
     border: 0.11em solid #1A171B;
     border-radius: 2em;
