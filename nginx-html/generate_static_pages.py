@@ -23,6 +23,7 @@ for quote in quotes:
         .replace("{{image}}", quote["image"])
         .replace("{{title}}", "Quote " + str(quote["id"]))
         .replace("{{description}}", quote["quote"])
+        .replace("{{link}}", quote["link"])
     )
 
     output_html_file = os.path.join(output_dir, f'{quote["id"]}.html')

@@ -85,7 +85,7 @@ html {
     margin-top: 1.5em;
 }
 
-.share-buttons button {
+.share-buttons a.btn {
     padding: 10px 20px;
     border: 0.11em solid #1A171B;
     border-radius: 2em;
@@ -94,9 +94,10 @@ html {
     font-size: 1em;
     color: #1A171B;
     background-color: #F85E4A;
+    text-decoration: none;
 }
 
-.share-buttons button:hover {
+.share-buttons a.btn:hover {
     background-color: #1A171B;
     color: #f4f4f4;
 }
