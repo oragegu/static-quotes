@@ -36,13 +36,13 @@ html {
 }
 
 .quote-container img {
-    max-height: 600px;
-    max-width: 80vmin;
+    max-height: 75vmin;
+    max-width: 75vmin;
     border-radius: 1.25em;
     box-sizing: border-box;
     display: block;
     box-shadow: 2.625em 2.625em 2em #1a171be1;
-
+    height: 650px;
     margin: 0 auto;
 
 }
